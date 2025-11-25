@@ -2,10 +2,10 @@ const portfolioData = {
   personal: {
     name: "Ben Angelo",
     title: "AI Diploma Student & Machine Learning Enthusiast",
-    email: "benn.angeloo1@gmail.clom",
+    email: "benn.angeloo1@gmail.clom", 
     githubUrl: "https://github.com/dontwakeupben",
     linkedinUrl: "https://linkedin.com/in/ben-angelo",
-    resumeUrl: "#", // Link to your PDF resume
+    resumeUrl: "https://drive.google.com/file/d/1oI8HmYdY70JI-5SfIED09ExtxxHdlBwZ/view?usp=sharing", // Link to your PDF resume
     bio: "I am a Diploma in AI student passionate about turning data into actionable insights. Currently focusing on Deep Learning, Natural Language Processing, and Computer Vision. I love solving complex problems and building intelligent systems.",
   },
   education: [
