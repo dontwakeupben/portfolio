@@ -15,7 +15,7 @@ const About = () => {
             <p className="text-slate-300 text-lg leading-relaxed mb-6">
               {portfolioData.personal.bio}
             </p>
-            
+
             <div className="space-y-6">
               <h3 className="text-xl font-semibold text-cyan-400">Education</h3>
               {portfolioData.education.map((edu, index) => (
@@ -29,18 +29,13 @@ const About = () => {
               ))}
             </div>
           </div>
-          
+
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500 to-purple-500 rounded-2xl rotate-6 opacity-30"></div>
               <div className="absolute inset-0 bg-slate-800 rounded-2xl border border-slate-700 flex items-center justify-center overflow-hidden">
                 {/* Placeholder for Profile Image - using an icon for now */}
-                <div className="text-center p-8">
-                  <Brain size={64} className="mx-auto text-cyan-400 mb-4" />
-                  <p className="text-slate-400 text-sm">
-                    Add your photo here by replacing this div with an &lt;img&gt; tag.
-                  </p>
-                </div>
+                <Brain className="w-32 h-32 text-cyan-400 opacity-70" />
               </div>
             </div>
           </div>
